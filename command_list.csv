@@ -1,0 +1,23 @@
+    1  git config --global user.name uysalyavas
+    2  git config --global user.email uysal.yavas@hotmail.com
+    3  git clone https://github.com/uysalyavas/goit_hw_10.git
+    4  cd goit_hw_10
+    5  touch text_ignore.txt
+    6  git status
+    7  git add .
+    8  git commit -m "gorev_1"
+    9  touch main_text.txt
+   10  git add .
+   11  git commit -m "gorev_2"
+   12  git branch develop
+   13  git checkout develop
+   14  touch develop_test.txt
+   15  git add .
+   16  git commit -m "gorev_3a"
+   17  git status
+   18  git add .
+   19  git commit -m "gorev_3b"
+   20  git checkout main
+   21  git merge develop
+   22  git log
+   23  history > command_list.csv
